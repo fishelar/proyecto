@@ -1,0 +1,76 @@
+
+body{
+	background:url(../recursos/img/fondo.png) #000000;
+
+
+}
+
+
+container{
+	height:120px;
+}
+.logo
+{
+	width:250px;
+	height:100px;
+}
+input#button,#button4,#button5,#button4:hover{
+	background:#F00D11;
+	width:150px;
+	height:50px;
+	padding:0.5em;
+	margin:0.5em auto;
+-webkit-backface-visibility: hidden;
+    -webkit-animation: 2s chicle 1;
+}
+
+@-webkit-keyframes chicle {
+  30% {
+    -webkit-transform: scaleX(1.25) scaleY(0.75);
+  }
+
+  40% {
+    -webkit-transform: scaleX(0.75) scaleY(1.25);
+  }
+
+  60% {
+    -webkit-transform: scaleX(1.15) scaleY(0.85);
+  }
+}
+}
+.cuerpo{
+	height:500px;
+}
+.cabecera{
+	background: #010354;
+	
+	
+}
+img{
+	background-position: center;
+	
+	height:150px;
+	width:850px;
+}
+footer{
+	color:white;
+	text-align:center;
+	font-size:12px;
+
+}
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
